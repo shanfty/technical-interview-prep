@@ -74,13 +74,53 @@ Do not require a special prompt, title, or completed metadata form.
    multiple valid outputs or unspecified ordering where appropriate. Test documented
    behavior, not a particular algorithm. Do not implement a reference solution, even
    temporarily for verification, or add algorithm hints to code or test comments.
-8. Run compilation and focused tests. Check that package paths match declarations and
+8. Complete the Test Correctness Review below, then run compilation and focused tests.
+   Check that package paths match declarations and
    tests are actually discovered. Report expected placeholder assertion failures
    separately from compilation, dependency, or test infrastructure errors. If another
    exercise blocks shared compilation, report it without changing the user's solution.
 9. Finish with the chosen title, links to the statement and starter, the exact focused
-   run command, and verification results. Avoid reciting algorithm tags in the response
+   run command, and verification results. Report expected-output review separately
+   from compilation and test execution. Avoid reciting algorithm tags in the response
    unless requested. Do not commit or push unless asked.
+
+## Test Correctness Review
+
+This review is required for every new or changed test, regardless of problem difficulty.
+Compilation and test discovery validate infrastructure, not expected-output correctness.
+Failures against an unfinished starter are never evidence that the tests are correct.
+
+Before delivering an exercise:
+
+1. In a separate review pass after writing the tests, re-derive every expected result
+   from the problem statement without using the starter's output as the authority.
+   Check supplied examples for transcription errors and resolve contradictions rather
+   than silently choosing an interpretation. Do not merely reread the fixture and
+   assume it is correct.
+2. Check overlapping rules and precedence, boundary values, output types, ordering,
+   and inclusive/exclusive endpoints. For list slices, map indices back to the actual
+   input values and verify every expected element and the slice length.
+3. Verify that each test input satisfies the documented contract and that its name
+   accurately describes its fixture. Do not impose unspecified behavior such as
+   output mutability, tie-breaking, invalid-input handling, or a particular algorithm.
+   For multiple valid answers, assert the documented validity conditions rather
+   than one arbitrarily chosen answer.
+4. Prefer small, auditable exact fixtures. For larger cases, use a construction with
+   an independently checkable result and review every asserted value. Partial checks
+   must not be described as validation of the entire output. Do not generate expected
+   answers with a duplicate implementation or reference solution, even temporarily.
+5. Check that assertions can detect relevant wrong outputs, rather than only checking
+   size, non-nullness, or properties also satisfied by the placeholder. Explain the
+   expected result of each case during review without adding solution hints to files.
+6. After review, run compilation and focused tests and inspect failure details. Only
+   classify failures as expected starter failures once their expectations have been
+   independently checked. If an expectation remains uncertain, resolve the uncertainty
+   or disclose the unresolved case; do not claim the exercise is fully verified.
+
+When a user's implementation fails a test, check the test expectation against the
+statement before blaming or changing the implementation. Correct a demonstrably
+wrong expectation and rerun the focused suite; never weaken a test merely to pass
+the user's code. Preserve the rule against implementing solutions unless requested.
 
 ## Problem Files
 
