@@ -34,7 +34,7 @@ class SolutionTest {
         List<Object> result = Solution.fizzBuzz(100);
         assertEquals(100, result.size());
         assertEquals(FIRST_THIRTY_ONE, result.subList(0, 31));
-        assertEquals(List.of("fizz", 46, 47, "fizz", 49, "buzz"), result.subList(44, 50));
+        assertEquals(List.of("fizzbuzz", 46, 47, "fizz", 49, "buzz"), result.subList(44, 50));
         assertEquals(List.of("fizzbuzz", 91, 92, "fizz", 94, "buzz", "fizz", 97, 98, "fizz", "buzz"),
             result.subList(89, 100));
     }
