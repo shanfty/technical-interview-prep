@@ -21,22 +21,22 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
-// Each exercise keeps its implementation and tests together on disk.
-def problemJavaDirs = fileTree('problems') {
-    include '*/*/java/*.java'
-}.files.collect { it.parentFile }.unique()
+// Discover self-contained exercises while keeping one shared Gradle project.
+def problemJavaDirs = file('problems').listFiles().findAll { it.directory }.collectMany { category ->
+    category.listFiles().findAll { it.directory }.collect { problem ->
+        new File(problem, 'java')
+    }.findAll { it.directory }
+}
 
 sourceSets {
     main {
         java {
-            setSrcDirs(problemJavaDirs)
-            exclude '**/*Test.java'
+            setSrcDirs(problemJavaDirs.collect { new File(it, 'src/main/java') })
         }
     }
     test {
         java {
-            setSrcDirs(problemJavaDirs)
-            include '**/*Test.java'
+            setSrcDirs(problemJavaDirs.collect { new File(it, 'src/test/java') })
         }
     }
 }
