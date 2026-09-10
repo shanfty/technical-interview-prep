@@ -1,0 +1,46 @@
+plugins {
+    id 'java'
+}
+
+group = 'interview.prep'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.11.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+// Each exercise keeps its implementation and tests together on disk.
+def problemJavaDirs = fileTree('problems') {
+    include '*/*/java/*.java'
+}.files.collect { it.parentFile }.unique()
+
+sourceSets {
+    main {
+        java {
+            setSrcDirs(problemJavaDirs)
+            exclude '**/*Test.java'
+        }
+    }
+    test {
+        java {
+            setSrcDirs(problemJavaDirs)
+            include '**/*Test.java'
+        }
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
