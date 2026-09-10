@@ -12,6 +12,7 @@
 
 # Package Files #
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 *.war
 *.nar
 *.ear
@@ -22,3 +23,19 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Gradle caches and generated output
+.gradle/
+build/
+
+# Local Java IDE output and generated project metadata
+/bin/
+/.classpath
+/.project
+/.settings/
+/.idea/
+*.iml
+
+# Local operating-system files
+.DS_Store
+Thumbs.db

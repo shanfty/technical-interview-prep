@@ -1,0 +1,21 @@
+title: Closest Carrot
+type: algorithm
+difficulty: medium
+
+data_structures:
+  - queue
+
+algorithms:
+  - breadth-first-search
+
+concepts:
+  - graph
+  - grid
+
+patterns:
+  - shortest-path-unweighted
+
+languages:
+  - java
+
+status: unsolved
