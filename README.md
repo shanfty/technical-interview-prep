@@ -17,7 +17,36 @@ This repository is designed to:
 * Support multiple programming languages over time.
 * Expand beyond algorithms into frontend, backend/API, and SQL interview exercises.
 
-## AI-Assisted Workflow
+## Git Workflow
+
+`main` holds the reusable exercise baseline: statements, metadata, tests, and
+compiling starters. `practice` holds your solutions and completion status.
+New exercises and shared test/build fixes belong on `main` (or a feature branch
+merged into it). Keep exercise status `unsolved` on `main`.
+
+Commit your current work before switching branches. To bring the latest baseline
+into your practice branch, run from the repository root:
+
+```powershell
+git switch main
+git pull --ff-only origin main
+git switch practice
+git merge main
+```
+
+Review any merge conflicts individually so your implementations are preserved.
+Never merge `practice` into `main`. Use merges for this long-lived branch rather
+than rewriting its history. To publish the branches when ready:
+
+```powershell
+git push origin main
+git push -u origin practice
+```
+
+The branch split keeps solutions out of the current `main` files; solutions that
+were committed previously remain in Git history.
+
+## Adding Problems with an Agent
 
 To add an exercise, paste its statement (a title is optional) or send a problem link
 from LeetCode or another site to the coding agent while working in this repository.

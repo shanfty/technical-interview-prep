@@ -15,7 +15,22 @@ The repository supports:
 - SQL problems
 - Multiple programming languages
 
-## Core Rules
+## Branch Workflow
+
+- `main` contains problem statements, metadata, tests, and compiling starters only.
+- `practice` contains the user's implementations and personal completion status.
+- Add exercises and shared infrastructure/test fixes on `main` or a branch based on
+  `main`, then merge `main` into `practice`. Never merge `practice` into `main`.
+- Check the current branch and working tree before editing. Commit or otherwise
+  preserve user work before switching branches; never discard it to enable a switch.
+- Keep metadata `status: unsolved` on `main`; update personal status on `practice`.
+- When syncing, review conflicts individually, preserving practice implementations
+  while incorporating shared changes. Do not resolve all conflicts with a blanket
+  ours/theirs strategy. Do not rewrite published history to remove old solutions.
+- Do not commit or push unless the user requests it. Branch separation does not
+  authorize generating a solution on either branch.
+
+## Exercise Creation Rules
 
 When creating a new interview problem:
 
