@@ -19,6 +19,33 @@ This repository is designed to:
 
 ## AI-Assisted Workflow
 
+To add an exercise, paste its statement (a title is optional) or send a problem link
+from LeetCode or another site to the coding agent while working in this repository.
+For example:
+
+```text
+Add this problem:
+<paste the problem statement here>
+```
+
+```text
+Add this problem: <problem URL>
+```
+
+In an ongoing exercise-creation conversation, the statement or URL alone is enough.
+The agent infers a missing title, chooses metadata and a directory name, and creates
+the problem description, compiling starter, and tests. Algorithm exercises default
+to Java 21. Specify another language when wanted.
+
+For links, the agent reads the problem statement and records its source. If the page
+is inaccessible or requires login, it will ask you to paste the statement. It asks
+about missing details only when they affect correctness and protects existing work
+when a problem is already present. Inferred difficulty is marked in metadata.
+
+The agent verifies compilation and test execution, provides the run command, and
+leaves the problem unsolved. It does not consult editorials or generate a solution
+to validate the tests.
+
 The repository is designed to work with AI coding agents.
 
 When given an interview problem, the agent can:
@@ -70,8 +97,9 @@ problems/
         ├── problem.md
         ├── metadata.yaml
         └── java/
-            ├── Solution.java
-            └── SolutionTest.java
+            └── src/
+                ├── main/java/interview/prep/algorithms/closestcarrot/Solution.java
+                └── test/java/interview/prep/algorithms/closestcarrot/SolutionTest.java
 ```
 
 ### `problem.md`
@@ -240,12 +268,21 @@ solution just to obtain a passing build.
 
 ### Shared Java conventions
 
-The root build discovers Java files directly in `problems/<category>/<problem>/java/`.
-Files ending in `Test.java` are test sources; all other Java files are main sources.
-Keep any JUnit-only helpers inside the test class. Every problem has a unique package
+The root build discovers each `problems/<category>/<problem>/java/` directory.
+Inside it, `src/main/java` contains implementations and `src/test/java` contains
+tests and test helpers. Every problem has a unique package
 `interview.prep.<category>.<problem-slug-with-hyphens-removed>`; check for collisions.
 For Closest Carrot this is `interview.prep.algorithms.closestcarrot`.
 This permits each problem to retain the filenames `Solution.java` and `SolutionTest.java`.
+
+Below each source root, directories must match the declared package. Closest Carrot's
+files therefore live under `interview/prep/algorithms/closestcarrot/`. This layout
+lets Java editors resolve packages and distinguish test dependencies correctly.
+Each exercise remains self-contained; there are no per-exercise Gradle projects.
+
+After source-root changes, run **Java: Clean Java Language Server Workspace** from
+VS Code's Command Palette and accept the reload to reimport the Gradle project.
+Open the repository root and use the Red Hat Java tooling for this workspace.
 
 All Java exercises share source sets, dependencies, and the Java 21 toolchain.
 Selecting one test class still compiles all Java exercises, so keep every starter

@@ -1,0 +1,21 @@
+title: Fizz Buzz
+type: algorithm
+difficulty: easy
+difficulty_origin: inferred
+
+data_structures:
+  - list
+
+algorithms: []
+
+concepts:
+  - iteration
+  - divisibility
+  - conditionals
+
+patterns: []
+
+languages:
+  - java
+
+status: unsolved
