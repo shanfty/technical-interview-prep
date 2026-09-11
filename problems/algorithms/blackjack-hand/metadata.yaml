@@ -1,0 +1,21 @@
+title: Blackjack Hand
+type: algorithm
+difficulty: easy
+difficulty_origin: inferred
+
+data_structures:
+  - array
+
+algorithms: []
+
+concepts:
+  - strings
+  - iteration
+  - conditionals
+
+patterns: []
+
+languages:
+  - java
+
+status: unsolved
