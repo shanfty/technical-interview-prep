@@ -39,3 +39,6 @@ build/
 # Local operating-system files
 .DS_Store
 Thumbs.db
+
+# Packaged local VS Code extensions
+*.vsix

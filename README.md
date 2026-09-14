@@ -268,6 +268,64 @@ Database exercises containing schemas, seed data, queries, and expected results.
 
 ## Development Environment
 
+### Opening an exercise in VS Code
+
+This repository includes a local [Interview Practice VS Code extension](tools/practice-vscode/README.md).
+Its **Practice: Open Problem** command presents a searchable list of exercises
+and opens the selected problem's rendered `problem.md` on the left and Java
+`Solution.java` starter or implementation on the right.
+
+#### Install once
+
+Install Node.js with npm, then run these commands in PowerShell from the repository
+root to create the extension's installable package:
+
+```powershell
+cd tools/practice-vscode
+npm.cmd run check
+npx.cmd --yes @vscode/vsce package --allow-missing-repository --skip-license
+```
+
+The packaging command downloads Microsoft's packaging tool as needed. After it
+succeeds, the file `tools/practice-vscode/interview-practice-0.0.1.vsix` will exist
+relative to the repository root. The `.vsix` is generated locally and is not
+included in Git; if it is missing, check the packaging command's terminal output.
+
+In your **normal VS Code window**:
+
+1. Press **Ctrl+Shift+P** and run **Extensions: Install from VSIX...**.
+2. Select the generated `interview-practice-0.0.1.vsix` file.
+3. Reload if prompted.
+
+Once installed, the command works in your normal window. You do not need to run
+F5 or the Extension Development Host for everyday practice. Installation is local;
+the extension is not published to the Marketplace.
+
+#### Open a problem and set a shortcut
+
+Open the repository root in VS Code, press **Ctrl+Shift+P**, run
+**Practice: Open Problem**, and select an exercise.
+
+For quicker access, assign **Ctrl+Alt+P**:
+
+1. Press **Ctrl+K**, then **Ctrl+S** to open Keyboard Shortcuts.
+2. Search for **Practice: Open Problem**.
+3. Click its pencil icon, press **Ctrl+Alt+P**, then press **Enter**.
+4. If VS Code reports another command using that combination, choose an unused
+   shortcut instead.
+
+Set the shortcut in your normal window after installation. Pressing it opens the
+exercise picker directly.
+
+New exercises appear automatically when they follow the existing
+`problems/<category>/<problem>/problem.md` and
+`java/src/main/java/**/Solution.java` layout; adding exercises does not require
+reinstalling the extension. It opens files from the currently checked-out branch.
+This version locates Java starters; other languages require an extension update.
+
+For an optional F5 trial, development instructions, and extension updates, see
+the [extension walkthrough](tools/practice-vscode/README.md).
+
 ### Running Java exercises
 
 Install JDK 21 and open the repository root in VS Code. Use the committed Gradle

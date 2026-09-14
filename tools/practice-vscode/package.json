@@ -1,0 +1,28 @@
+{
+  "name": "interview-practice",
+  "displayName": "Interview Practice",
+  "description": "Open an interview problem beside its Java starter or implementation.",
+  "version": "0.0.1",
+  "publisher": "local-practice",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "main": "./extension.js",
+  "extensionDependencies": ["vscode.markdown-language-features"],
+  "contributes": {
+    "commands": [
+      {
+        "command": "interviewPractice.openProblem",
+        "title": "Open Problem",
+        "category": "Practice"
+      }
+    ]
+  },
+  "files": ["extension.js", "README.md"],
+  "scripts": {
+    "check": "node --check extension.js"
+  }
+}
