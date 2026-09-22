@@ -1,0 +1,15 @@
+title: Binary Tree Right Side View
+type: algorithm
+difficulty: medium
+data_structures:
+  - binary-tree
+  - queue
+algorithms:
+  - breadth-first-search
+concepts:
+  - tree-traversal
+patterns:
+  - level-order
+languages:
+  - java
+status: unsolved

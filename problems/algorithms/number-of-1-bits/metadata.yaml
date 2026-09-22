@@ -1,0 +1,13 @@
+title: Number of 1 Bits
+type: algorithm
+difficulty: easy
+data_structures: []
+algorithms:
+  - bit-manipulation
+concepts:
+  - binary-representation
+patterns:
+  - bit-counting
+languages:
+  - java
+status: unsolved

@@ -1,0 +1,15 @@
+title: Word Ladder
+type: algorithm
+difficulty: hard
+data_structures:
+  - hash-set
+  - queue
+algorithms:
+  - breadth-first-search
+concepts:
+  - shortest-path
+patterns:
+  - implicit-graph
+languages:
+  - java
+status: unsolved

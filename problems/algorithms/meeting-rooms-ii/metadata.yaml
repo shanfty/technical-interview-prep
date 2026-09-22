@@ -1,0 +1,14 @@
+title: Meeting Rooms II
+type: algorithm
+difficulty: medium
+data_structures:
+  - heap
+algorithms:
+  - sorting
+concepts:
+  - interval-scheduling
+patterns:
+  - sweep-line
+languages:
+  - java
+status: unsolved

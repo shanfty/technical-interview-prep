@@ -1,0 +1,14 @@
+title: Maximum Sum Circular Subarray
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - dynamic-programming
+concepts:
+  - circular-array
+patterns:
+  - running-optimum
+languages:
+  - java
+status: unsolved

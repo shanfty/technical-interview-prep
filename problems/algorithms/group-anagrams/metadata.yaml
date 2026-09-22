@@ -1,0 +1,14 @@
+title: Group Anagrams
+type: algorithm
+difficulty: medium
+data_structures:
+  - hash-map
+  - array
+algorithms: []
+concepts:
+  - string
+patterns:
+  - canonical-representation
+languages:
+  - java
+status: unsolved

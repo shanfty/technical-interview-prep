@@ -1,0 +1,13 @@
+title: Decode Ways
+type: algorithm
+difficulty: medium
+data_structures: []
+algorithms:
+  - dynamic-programming
+concepts:
+  - counting
+patterns:
+  - one-dimensional-dp
+languages:
+  - java
+status: unsolved

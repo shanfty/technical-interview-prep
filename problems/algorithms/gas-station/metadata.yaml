@@ -1,0 +1,14 @@
+title: Gas Station
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - greedy
+concepts:
+  - circular-array
+patterns:
+  - feasibility-scan
+languages:
+  - java
+status: unsolved

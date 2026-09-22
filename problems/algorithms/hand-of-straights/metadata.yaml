@@ -1,0 +1,15 @@
+title: Hand of Straights
+type: algorithm
+difficulty: medium
+data_structures:
+  - hash-map
+  - heap
+algorithms:
+  - greedy
+concepts:
+  - grouping
+patterns:
+  - frequency-ordering
+languages:
+  - java
+status: unsolved

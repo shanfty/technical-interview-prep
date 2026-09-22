@@ -1,0 +1,14 @@
+title: Coin Change
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - dynamic-programming
+concepts:
+  - optimization
+patterns:
+  - unbounded-choice
+languages:
+  - java
+status: unsolved

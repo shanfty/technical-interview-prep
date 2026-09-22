@@ -1,0 +1,13 @@
+title: Minimum Window Substring
+type: algorithm
+difficulty: hard
+data_structures:
+  - hash-map
+algorithms: []
+concepts:
+  - string
+patterns:
+  - sliding-window
+languages:
+  - java
+status: unsolved

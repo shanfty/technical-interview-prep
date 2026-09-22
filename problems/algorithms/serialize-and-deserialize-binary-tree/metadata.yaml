@@ -1,0 +1,14 @@
+title: Serialize and Deserialize Binary Tree
+type: algorithm
+difficulty: hard
+data_structures:
+  - binary-tree
+algorithms:
+  - breadth-first-search
+concepts:
+  - data-serialization
+patterns:
+  - recursive-encoding
+languages:
+  - java
+status: unsolved

@@ -1,0 +1,13 @@
+title: Merge Two Sorted Linked Lists
+type: algorithm
+difficulty: easy
+data_structures:
+  - linked-list
+algorithms: []
+concepts:
+  - pointer-manipulation
+patterns:
+  - merge
+languages:
+  - java
+status: unsolved

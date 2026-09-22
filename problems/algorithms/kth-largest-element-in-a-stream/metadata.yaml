@@ -1,0 +1,12 @@
+title: Kth Largest Element in a Stream
+type: algorithm
+difficulty: easy
+data_structures: [heap]
+algorithms: []
+concepts: [streaming]
+patterns: [priority-queue]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/kth-largest-element-in-a-stream
+source_platform: neetcode
+

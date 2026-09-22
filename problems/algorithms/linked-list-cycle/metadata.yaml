@@ -1,0 +1,12 @@
+title: Linked List Cycle
+type: algorithm
+difficulty: easy
+data_structures: [linked-list]
+algorithms: []
+concepts: [cycle-detection]
+patterns: [fast-slow-pointers]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/linked-list-cycle
+source_platform: neetcode
+

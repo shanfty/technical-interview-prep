@@ -1,0 +1,12 @@
+title: Merge Triplets to Form Target Triplet
+type: algorithm
+difficulty: medium
+data_structures: [array]
+algorithms: [greedy]
+concepts: []
+patterns: [filter-and-aggregate]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/merge-triplets-to-form-target-triplet
+source_platform: neetcode
+

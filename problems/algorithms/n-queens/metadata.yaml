@@ -1,0 +1,14 @@
+title: N Queens
+type: algorithm
+difficulty: hard
+data_structures:
+  - array
+algorithms:
+  - backtracking
+concepts:
+  - constraint-satisfaction
+patterns:
+  - decision-tree
+languages:
+  - java
+status: unsolved

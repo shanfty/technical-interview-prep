@@ -1,0 +1,13 @@
+title: Product of Array Except Self
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms: []
+concepts:
+  - prefix-product
+patterns:
+  - prefix-suffix
+languages:
+  - java
+status: unsolved

@@ -1,0 +1,15 @@
+title: Course Schedule
+type: algorithm
+difficulty: medium
+data_structures:
+  - graph
+  - queue
+algorithms:
+  - topological-sort
+concepts:
+  - cycle-detection
+patterns:
+  - directed-graph
+languages:
+  - java
+status: unsolved

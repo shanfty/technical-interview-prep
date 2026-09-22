@@ -1,0 +1,14 @@
+title: Validate Binary Search Tree
+type: algorithm
+difficulty: medium
+data_structures:
+  - binary-search-tree
+algorithms:
+  - depth-first-search
+concepts:
+  - ordering-invariant
+patterns:
+  - bounds
+languages:
+  - java
+status: unsolved

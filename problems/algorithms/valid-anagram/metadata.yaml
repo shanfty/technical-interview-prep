@@ -1,0 +1,13 @@
+title: Valid Anagram
+type: algorithm
+difficulty: easy
+data_structures:
+  - array
+algorithms: []
+concepts:
+  - string
+patterns:
+  - frequency-counting
+languages:
+  - java
+status: unsolved

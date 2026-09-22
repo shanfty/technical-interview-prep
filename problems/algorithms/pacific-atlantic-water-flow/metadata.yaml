@@ -1,0 +1,14 @@
+title: Pacific Atlantic Water Flow
+type: algorithm
+difficulty: medium
+data_structures:
+  - matrix
+algorithms:
+  - depth-first-search
+concepts:
+  - reachability
+patterns:
+  - grid-traversal
+languages:
+  - java
+status: unsolved

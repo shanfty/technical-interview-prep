@@ -1,0 +1,14 @@
+title: House Robber
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - dynamic-programming
+concepts:
+  - optimization
+patterns:
+  - one-dimensional-dp
+languages:
+  - java
+status: unsolved

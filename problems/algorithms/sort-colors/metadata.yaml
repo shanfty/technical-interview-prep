@@ -1,0 +1,12 @@
+title: Sort Colors
+type: algorithm
+difficulty: medium
+data_structures: [array]
+algorithms: [sorting]
+concepts: [in-place-modification]
+patterns: [three-pointers]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/sort-colors
+source_platform: neetcode
+

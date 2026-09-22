@@ -1,0 +1,12 @@
+title: Valid Sudoku
+type: algorithm
+difficulty: medium
+data_structures: [array, hash-set]
+algorithms: []
+concepts: [validation]
+patterns: []
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/valid-sudoku
+source_platform: neetcode
+

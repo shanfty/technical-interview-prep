@@ -1,0 +1,12 @@
+title: Pow(x, n)
+type: algorithm
+difficulty: medium
+data_structures: []
+algorithms: [binary-exponentiation]
+concepts: [overflow]
+patterns: [divide-and-conquer]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/pow-x-n
+source_platform: neetcode
+

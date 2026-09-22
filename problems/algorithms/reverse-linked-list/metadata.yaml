@@ -1,0 +1,13 @@
+title: Reverse Linked List
+type: algorithm
+difficulty: easy
+data_structures:
+  - linked-list
+algorithms: []
+concepts:
+  - pointer-manipulation
+patterns:
+  - iterative-reversal
+languages:
+  - java
+status: unsolved

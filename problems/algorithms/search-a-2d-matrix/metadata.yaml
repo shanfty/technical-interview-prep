@@ -1,0 +1,14 @@
+title: Search a 2D Matrix
+type: algorithm
+difficulty: medium
+data_structures:
+  - matrix
+algorithms:
+  - binary-search
+concepts:
+  - sorted-matrix
+patterns:
+  - divide-and-conquer
+languages:
+  - java
+status: unsolved

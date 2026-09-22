@@ -1,0 +1,12 @@
+title: Rotate Image
+type: algorithm
+difficulty: medium
+data_structures: [matrix]
+algorithms: []
+concepts: [in-place-modification]
+patterns: [layered-matrix]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/rotate-image
+source_platform: neetcode
+

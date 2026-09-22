@@ -1,0 +1,13 @@
+title: Find the Duplicate Number
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms: []
+concepts:
+  - cycle-detection
+patterns:
+  - fast-slow-pointers
+languages:
+  - java
+status: unsolved

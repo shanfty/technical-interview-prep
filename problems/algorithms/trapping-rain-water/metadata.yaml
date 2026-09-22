@@ -1,0 +1,13 @@
+title: Trapping Rain Water
+type: algorithm
+difficulty: hard
+data_structures:
+  - array
+algorithms: []
+concepts:
+  - area-accumulation
+patterns:
+  - two-pointers
+languages:
+  - java
+status: unsolved

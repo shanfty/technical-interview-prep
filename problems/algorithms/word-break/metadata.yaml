@@ -1,0 +1,12 @@
+title: Word Break
+type: algorithm
+difficulty: medium
+data_structures: [string, list, set]
+algorithms: [dynamic-programming]
+concepts: []
+patterns: [one-dimensional-dp]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/word-break
+source_platform: neetcode
+

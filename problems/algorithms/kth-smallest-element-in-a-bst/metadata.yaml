@@ -1,0 +1,14 @@
+title: Kth Smallest Element in a BST
+type: algorithm
+difficulty: medium
+data_structures:
+  - binary-search-tree
+algorithms:
+  - depth-first-search
+concepts:
+  - ordering-invariant
+patterns:
+  - inorder-traversal
+languages:
+  - java
+status: unsolved

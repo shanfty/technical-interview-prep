@@ -1,0 +1,13 @@
+title: Kth Largest Element in an Array
+type: algorithm
+difficulty: medium
+data_structures:
+  - heap
+algorithms: []
+concepts:
+  - ranking
+patterns:
+  - top-k
+languages:
+  - java
+status: unsolved

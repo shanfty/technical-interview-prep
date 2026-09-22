@@ -1,0 +1,12 @@
+title: Maximum XOR of Two Numbers in an Array
+type: algorithm
+difficulty: medium
+data_structures: [array, trie]
+algorithms: [bit-manipulation]
+concepts: []
+patterns: [bitwise-trie]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/maximum-xor-of-two-numbers-in-an-array
+source_platform: neetcode
+

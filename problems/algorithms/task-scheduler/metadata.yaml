@@ -1,0 +1,14 @@
+title: Task Scheduler
+type: algorithm
+difficulty: medium
+data_structures:
+  - heap
+algorithms:
+  - greedy
+concepts:
+  - scheduling
+patterns:
+  - frequency-counting
+languages:
+  - java
+status: unsolved

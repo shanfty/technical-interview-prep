@@ -1,0 +1,14 @@
+title: Letter Combinations of a Phone Number
+type: algorithm
+difficulty: medium
+data_structures:
+  - string
+algorithms:
+  - backtracking
+concepts:
+  - combinatorics
+patterns:
+  - decision-tree
+languages:
+  - java
+status: unsolved

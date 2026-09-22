@@ -1,0 +1,13 @@
+title: Distinct Subsequences
+type: algorithm
+difficulty: hard
+data_structures: []
+algorithms:
+  - dynamic-programming
+concepts:
+  - string
+patterns:
+  - two-dimensional-dp
+languages:
+  - java
+status: unsolved

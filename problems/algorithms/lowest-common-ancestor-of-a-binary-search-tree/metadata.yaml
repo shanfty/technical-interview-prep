@@ -1,0 +1,13 @@
+title: Lowest Common Ancestor of a Binary Search Tree
+type: algorithm
+difficulty: medium
+data_structures:
+  - binary-search-tree
+algorithms: []
+concepts:
+  - ancestor-relationship
+patterns:
+  - ordered-search
+languages:
+  - java
+status: unsolved

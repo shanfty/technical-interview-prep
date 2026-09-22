@@ -1,0 +1,13 @@
+title: Valid Parentheses
+type: algorithm
+difficulty: easy
+data_structures:
+  - stack
+algorithms: []
+concepts:
+  - delimiter-matching
+patterns:
+  - stack
+languages:
+  - java
+status: unsolved

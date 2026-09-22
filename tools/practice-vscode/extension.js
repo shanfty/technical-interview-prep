@@ -1,22 +1,9 @@
 const vscode = require('vscode');
 const path = require('node:path');
 
-async function openProblem() {
-    if (!vscode.workspace.workspaceFolders?.length) {
-        await vscode.window.showInformationMessage('Open your interview practice repository first.');
-        return;
-    }
-
-    // Search afresh so newly added problems appear without updating the extension.
+async function findProblemStatements() {
     const statements = await vscode.workspace.findFiles('problems/*/*/problem.md');
-    if (!statements.length) {
-        await vscode.window.showInformationMessage(
-            'No problems found. Open the repository root containing the problems folder.'
-        );
-        return;
-    }
-
-    const choices = await Promise.all(statements.map(async (uri) => {
+    return Promise.all(statements.map(async (uri) => {
         const document = await vscode.workspace.openTextDocument(uri);
         const heading = document.getText().match(/^#\s+(.+?)\s*$/m);
         return {
@@ -25,17 +12,12 @@ async function openProblem() {
             uri
         };
     }));
-    choices.sort((a, b) => a.label.localeCompare(b.label)
-        || a.description.localeCompare(b.description));
+}
 
-    const selected = await vscode.window.showQuickPick(choices, {
-        title: 'Practice: Open Problem',
-        placeHolder: 'Choose an exercise',
-        matchOnDescription: true
-    });
-    if (!selected) return;
-
+async function openSelectedProblem(selected) {
     const problemFolder = vscode.Uri.joinPath(selected.uri, '..');
+    const metadata = vscode.Uri.joinPath(problemFolder, 'metadata.yaml');
+    const hasMetadata = await vscode.workspace.fs.stat(metadata).then(() => true).catch(() => false);
     const solutions = await vscode.workspace.findFiles(
         new vscode.RelativePattern(problemFolder, 'java/src/main/java/**/Solution.java')
     );
@@ -54,30 +36,89 @@ async function openProblem() {
         solution = selectedSolution.uri;
     }
 
-    // The Markdown command uses the active text editor's column.
-    await vscode.window.showTextDocument(selected.uri, {
-        viewColumn: vscode.ViewColumn.One,
-        preview: true
-    });
+    await vscode.window.showTextDocument(selected.uri, { viewColumn: vscode.ViewColumn.One, preview: true });
     await vscode.commands.executeCommand(
         'markdown.showPreview', selected.uri, undefined, { locked: true }
     );
+    await vscode.commands.executeCommand('vscode.setEditorLayout', {
+        orientation: 0,
+        groups: [{ size: 0.34 }, { size: 0.33 }, { size: 0.33 }]
+    });
 
-    if (!solution) {
+    if (solution) {
+        await vscode.window.showTextDocument(solution, {
+            viewColumn: vscode.ViewColumn.Two,
+            preview: false
+        });
+    }
+    if (hasMetadata) {
+        await vscode.window.showTextDocument(metadata, {
+            viewColumn: vscode.ViewColumn.Three,
+            preview: false
+        });
+    }
+
+    if (!solution || !hasMetadata) {
+        const missing = [
+            !solution && 'Java Solution.java',
+            !hasMetadata && 'metadata.yaml'
+        ].filter(Boolean).join(' and ');
         await vscode.window.showInformationMessage(
-            'Opened the statement. This exercise has no Java Solution.java under java/src/main/java yet.'
+            `Opened the statement. This exercise has no ${missing}.`
+        );
+    }
+}
+
+async function openProblem() {
+    if (!vscode.workspace.workspaceFolders?.length) {
+        await vscode.window.showInformationMessage('Open your interview practice repository first.');
+        return;
+    }
+
+    const statements = await findProblemStatements();
+    if (!statements.length) {
+        await vscode.window.showInformationMessage(
+            'No problems found. Open the repository root containing the problems folder.'
         );
         return;
     }
 
-    await vscode.commands.executeCommand('vscode.setEditorLayout', {
-        orientation: 0,
-        groups: [{ size: 0.5 }, { size: 0.5 }]
+    statements.sort((a, b) => a.label.localeCompare(b.label)
+        || a.description.localeCompare(b.description));
+    const selected = await vscode.window.showQuickPick(statements, {
+        title: 'Practice: Open Problem',
+        placeHolder: 'Choose an exercise',
+        matchOnDescription: true
     });
-    await vscode.window.showTextDocument(solution, {
-        viewColumn: vscode.ViewColumn.Two,
-        preview: false
-    });
+    if (selected) await openSelectedProblem(selected);
+}
+
+async function openRandomUnsolved() {
+    if (!vscode.workspace.workspaceFolders?.length) {
+        await vscode.window.showInformationMessage('Open your interview practice repository first.');
+        return;
+    }
+
+    const statements = await findProblemStatements();
+    const unsolved = [];
+    for (const statement of statements) {
+        const metadataUri = vscode.Uri.joinPath(statement.uri, '..', 'metadata.yaml');
+        try {
+            const metadata = await vscode.workspace.fs.readFile(metadataUri);
+            if (/^status:\s*unsolved\s*$/mi.test(Buffer.from(metadata).toString('utf8'))) {
+                unsolved.push(statement);
+            }
+        } catch {
+            // Problems without metadata cannot be selected as unsolved.
+        }
+    }
+
+    if (!unsolved.length) {
+        await vscode.window.showInformationMessage('No unsolved problems found.');
+        return;
+    }
+
+    await openSelectedProblem(unsolved[Math.floor(Math.random() * unsolved.length)]);
 }
 
 function activate(context) {
@@ -93,6 +134,19 @@ function activate(context) {
             }
         }
     ));
+    context.subscriptions.push(vscode.commands.registerCommand(
+        'interviewPractice.openRandomUnsolved',
+        async () => {
+            try {
+                await openRandomUnsolved();
+            } catch (error) {
+                await vscode.window.showErrorMessage(
+                    `Could not open a random unsolved exercise: ${error instanceof Error ? error.message : String(error)}`
+                );
+            }
+        }
+    ));
 }
 
 module.exports = { activate };
+

@@ -1,0 +1,14 @@
+title: Max Area of Island
+type: algorithm
+difficulty: medium
+data_structures:
+  - matrix
+algorithms:
+  - depth-first-search
+concepts:
+  - connected-components
+patterns:
+  - grid-traversal
+languages:
+  - java
+status: unsolved

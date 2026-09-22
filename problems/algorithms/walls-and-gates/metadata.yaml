@@ -1,0 +1,12 @@
+title: Walls and Gates
+type: algorithm
+difficulty: medium
+data_structures: [matrix, queue]
+algorithms: [breadth-first-search]
+concepts: [shortest-path]
+patterns: [multi-source-bfs]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/islands-and-treasure
+source_platform: neetcode
+
