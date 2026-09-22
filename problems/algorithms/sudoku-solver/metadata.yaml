@@ -1,0 +1,12 @@
+title: Sudoku Solver
+type: algorithm
+difficulty: hard
+data_structures: [matrix, set]
+algorithms: [backtracking]
+concepts: [constraint-satisfaction]
+patterns: [backtracking]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/sudoku-solver
+source_platform: neetcode
+

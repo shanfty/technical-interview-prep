@@ -1,0 +1,12 @@
+title: Min Cost Climbing Stairs
+type: algorithm
+difficulty: easy
+data_structures: [array]
+algorithms: [dynamic-programming]
+concepts: []
+patterns: [one-dimensional-dp]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/min-cost-climbing-stairs
+source_platform: neetcode
+

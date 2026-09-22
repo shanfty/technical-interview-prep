@@ -1,0 +1,12 @@
+title: Count Good Nodes in Binary Tree
+type: algorithm
+difficulty: medium
+data_structures: [binary-tree]
+algorithms: [depth-first-search]
+concepts: [path-maximum]
+patterns: [tree-recursion]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/count-good-nodes-in-binary-tree
+source_platform: neetcode
+

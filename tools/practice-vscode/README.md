@@ -1,8 +1,10 @@
 # Interview Practice for VS Code
 
-A local extension that adds **Practice: Open Problem** to the Command Palette.
-Select an exercise to open its Markdown statement on the left and its Java
-starter or implementation on the right.
+A local extension that adds **Practice: Open Problem** and **Practice: Open Random Unsolved** to the Command Palette.
+Select an exercise to open its Markdown statement on the left, its Java starter
+or implementation in the middle, and its `metadata.yaml` on the right.
+The random command selects only exercises whose metadata contains
+`status: unsolved`.
 
 ## 1. Understand the files
 
@@ -25,8 +27,9 @@ There are no runtime dependencies to install and no compilation step.
 4. A separate **Extension Development Host** window opens the **practice-dev**
    workspace, which contains this repository. There is no need to use Open Folder.
 5. In that new window, press `Ctrl+Shift+P` and run **Practice: Open Problem**.
-6. Select an exercise. Confirm its rendered statement appears on the left and
-   its matching `Solution.java` appears on the right.
+6. Select an exercise. Confirm its rendered statement appears on the left,
+   its matching `Solution.java` appears in the middle, and `metadata.yaml`
+   appears on the right.
 7. Run the command again and choose a different exercise to check the pairing.
 
 The development window edits the real repository files. Closing it ends the
@@ -77,14 +80,17 @@ All current Java exercises follow this layout. If several files match, you
 choose one. If none match, the statement still opens with an explanatory
 message. Other languages need an extension update to locate their starters.
 
-The command arranges two editor columns and focuses the solution. The statement
+The command arranges three editor columns and focuses the solution. The statement
 preview is locked to the selected problem so opening another Markdown file does
 not change it. Existing tabs and edits remain open; earlier problem previews
-may remain as tabs. The extension does not run tests, change branches, or mark
-problems solved. It opens the files from your currently checked-out branch.
+may remain as tabs. Update `metadata.yaml` from `status: unsolved` to
+`status: solved` after completing an exercise. The extension does not run tests
+or change branches. It opens the files from your currently checked-out branch.
 
-To add your own shortcut, open **Preferences: Open Keyboard Shortcuts**, search
-for **Practice: Open Problem**, and assign an unused shortcut.
+To add shortcuts, open **Preferences: Open Keyboard Shortcuts** and search for
+the command. Recommended bindings are **Ctrl+Alt+P** for **Practice: Open
+Problem** and **Ctrl+Alt+U** for **Practice: Open Random Unsolved**. If either
+combination is already assigned, choose another unused shortcut.
 
 After changing the extension, increment `version` in `package.json`, package it
 again, and install the new VSIX. Adding exercises does not require reinstalling.

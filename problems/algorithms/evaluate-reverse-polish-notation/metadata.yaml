@@ -1,0 +1,13 @@
+title: Evaluate Reverse Polish Notation
+type: algorithm
+difficulty: medium
+data_structures:
+  - stack
+algorithms: []
+concepts:
+  - arithmetic
+patterns:
+  - postfix-evaluation
+languages:
+  - java
+status: unsolved

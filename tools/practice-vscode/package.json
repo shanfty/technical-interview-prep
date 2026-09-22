@@ -2,7 +2,7 @@
   "name": "interview-practice",
   "displayName": "Interview Practice",
   "description": "Open an interview problem beside its Java starter or implementation.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "local-practice",
   "private": true,
   "license": "UNLICENSED",
@@ -17,6 +17,11 @@
       {
         "command": "interviewPractice.openProblem",
         "title": "Open Problem",
+        "category": "Practice"
+      },
+      {
+        "command": "interviewPractice.openRandomUnsolved",
+        "title": "Open Random Unsolved",
         "category": "Practice"
       }
     ]

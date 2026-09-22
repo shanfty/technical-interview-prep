@@ -1,0 +1,12 @@
+title: Sliding Window Maximum
+type: algorithm
+difficulty: hard
+data_structures: [array, deque]
+algorithms: [sliding-window]
+concepts: []
+patterns: [monotonic-queue]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/sliding-window-maximum
+source_platform: neetcode
+

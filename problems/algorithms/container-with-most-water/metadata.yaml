@@ -1,0 +1,13 @@
+title: Container With Most Water
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms: []
+concepts:
+  - area-optimization
+patterns:
+  - two-pointers
+languages:
+  - java
+status: unsolved

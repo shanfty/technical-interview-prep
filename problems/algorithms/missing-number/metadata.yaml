@@ -1,0 +1,14 @@
+title: Missing Number
+type: algorithm
+difficulty: easy
+data_structures:
+  - array
+algorithms:
+  - bit-manipulation
+concepts:
+  - range-completeness
+patterns:
+  - xor
+languages:
+  - java
+status: unsolved

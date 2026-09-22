@@ -1,0 +1,14 @@
+title: House Robber II
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - dynamic-programming
+concepts:
+  - circular-array
+patterns:
+  - one-dimensional-dp
+languages:
+  - java
+status: unsolved

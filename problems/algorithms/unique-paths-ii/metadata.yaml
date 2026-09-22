@@ -1,0 +1,14 @@
+title: Unique Paths II
+type: algorithm
+difficulty: medium
+data_structures:
+  - matrix
+algorithms:
+  - dynamic-programming
+concepts:
+  - grid-paths
+patterns:
+  - two-dimensional-dp
+languages:
+  - java
+status: unsolved

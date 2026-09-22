@@ -1,0 +1,12 @@
+title: Longest Increasing Path in a Matrix
+type: algorithm
+difficulty: hard
+data_structures: [matrix]
+algorithms: [dynamic-programming, depth-first-search]
+concepts: [memoization]
+patterns: [graph-on-grid]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/longest-increasing-path-in-a-matrix
+source_platform: neetcode
+

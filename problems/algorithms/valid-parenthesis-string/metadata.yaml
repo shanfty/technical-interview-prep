@@ -1,0 +1,12 @@
+title: Valid Parenthesis String
+type: algorithm
+difficulty: medium
+data_structures: [string]
+algorithms: [greedy]
+concepts: []
+patterns: [range-tracking]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/valid-parenthesis-string
+source_platform: neetcode
+

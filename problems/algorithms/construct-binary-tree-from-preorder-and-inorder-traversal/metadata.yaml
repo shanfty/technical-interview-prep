@@ -1,0 +1,14 @@
+title: Construct Binary Tree from Preorder and Inorder Traversal
+type: algorithm
+difficulty: medium
+data_structures:
+  - binary-tree
+algorithms:
+  - depth-first-search
+concepts:
+  - tree-construction
+patterns:
+  - divide-and-conquer
+languages:
+  - java
+status: unsolved

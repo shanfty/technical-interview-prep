@@ -1,0 +1,13 @@
+title: Regular Expression Matching
+type: algorithm
+difficulty: hard
+data_structures: []
+algorithms:
+  - dynamic-programming
+concepts:
+  - pattern-matching
+patterns:
+  - two-dimensional-dp
+languages:
+  - java
+status: unsolved

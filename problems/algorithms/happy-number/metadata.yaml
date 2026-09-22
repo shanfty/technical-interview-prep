@@ -1,0 +1,13 @@
+title: Happy Number
+type: algorithm
+difficulty: easy
+data_structures:
+  - hash-set
+algorithms: []
+concepts:
+  - cycle-detection
+patterns:
+  - digit-processing
+languages:
+  - java
+status: unsolved

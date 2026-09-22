@@ -1,0 +1,14 @@
+title: Palindrome Partitioning
+type: algorithm
+difficulty: medium
+data_structures:
+  - string
+algorithms:
+  - backtracking
+concepts:
+  - palindrome
+patterns:
+  - decision-tree
+languages:
+  - java
+status: unsolved

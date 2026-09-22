@@ -1,0 +1,12 @@
+title: Palindromic Substrings
+type: algorithm
+difficulty: medium
+data_structures: [string]
+algorithms: [dynamic-programming]
+concepts: [palindrome]
+patterns: [expand-around-center]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/palindromic-substrings
+source_platform: neetcode
+

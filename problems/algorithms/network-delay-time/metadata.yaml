@@ -1,0 +1,15 @@
+title: Network Delay Time
+type: algorithm
+difficulty: medium
+data_structures:
+  - graph
+  - heap
+algorithms:
+  - shortest-path
+concepts:
+  - weighted-graph
+patterns:
+  - priority-queue
+languages:
+  - java
+status: unsolved

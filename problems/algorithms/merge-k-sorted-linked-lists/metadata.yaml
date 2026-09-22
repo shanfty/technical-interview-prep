@@ -1,0 +1,12 @@
+title: Merge K Sorted Linked Lists
+type: algorithm
+difficulty: hard
+data_structures: [linked-list, heap]
+algorithms: [divide-and-conquer]
+concepts: [merging]
+patterns: [priority-queue]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/merge-k-sorted-lists
+source_platform: neetcode
+

@@ -1,0 +1,12 @@
+title: LRU Cache
+type: algorithm
+difficulty: medium
+data_structures: [hash-map, linked-list]
+algorithms: []
+concepts: [cache]
+patterns: [constant-time-design]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/lru-cache
+source_platform: neetcode
+

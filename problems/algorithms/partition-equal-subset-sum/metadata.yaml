@@ -1,0 +1,14 @@
+title: Partition Equal Subset Sum
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - dynamic-programming
+concepts:
+  - subset-sum
+patterns:
+  - zero-one-choice
+languages:
+  - java
+status: unsolved

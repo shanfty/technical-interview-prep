@@ -1,0 +1,13 @@
+title: Implement Trie Prefix Tree
+type: algorithm
+difficulty: medium
+data_structures:
+  - trie
+algorithms: []
+concepts:
+  - prefix-search
+patterns:
+  - tree-design
+languages:
+  - java
+status: unsolved

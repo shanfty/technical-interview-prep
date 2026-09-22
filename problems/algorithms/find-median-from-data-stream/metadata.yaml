@@ -1,0 +1,13 @@
+title: Find Median from Data Stream
+type: algorithm
+difficulty: hard
+data_structures:
+  - heap
+algorithms: []
+concepts:
+  - streaming-data
+patterns:
+  - two-heaps
+languages:
+  - java
+status: unsolved

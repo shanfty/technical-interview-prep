@@ -1,0 +1,16 @@
+title: Clone Graph
+type: algorithm
+difficulty: medium
+data_structures:
+  - graph
+  - hash-map
+algorithms:
+  - breadth-first-search
+  - depth-first-search
+concepts:
+  - deep-copy
+patterns:
+  - visited-map
+languages:
+  - java
+status: unsolved

@@ -1,0 +1,14 @@
+title: Binary Search
+type: algorithm
+difficulty: easy
+data_structures:
+  - array
+algorithms:
+  - binary-search
+concepts:
+  - sorted-array
+patterns:
+  - divide-and-conquer
+languages:
+  - java
+status: unsolved

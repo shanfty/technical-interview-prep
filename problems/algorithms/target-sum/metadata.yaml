@@ -1,0 +1,14 @@
+title: Target Sum
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - dynamic-programming
+concepts:
+  - counting
+patterns:
+  - choice-enumeration
+languages:
+  - java
+status: unsolved

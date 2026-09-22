@@ -1,0 +1,13 @@
+title: Reverse Bits
+type: algorithm
+difficulty: easy
+data_structures: []
+algorithms:
+  - bit-manipulation
+concepts:
+  - binary-representation
+patterns:
+  - bitwise-transform
+languages:
+  - java
+status: unsolved

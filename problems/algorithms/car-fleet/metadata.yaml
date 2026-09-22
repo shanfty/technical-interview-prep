@@ -1,0 +1,14 @@
+title: Car Fleet
+type: algorithm
+difficulty: medium
+data_structures:
+  - stack
+algorithms:
+  - sorting
+concepts:
+  - arrival-time
+patterns:
+  - monotonic-stack
+languages:
+  - java
+status: unsolved

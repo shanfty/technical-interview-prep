@@ -1,0 +1,13 @@
+title: Longest Substring Without Repeating Characters
+type: algorithm
+difficulty: medium
+data_structures:
+  - hash-set
+algorithms: []
+concepts:
+  - string
+patterns:
+  - sliding-window
+languages:
+  - java
+status: unsolved

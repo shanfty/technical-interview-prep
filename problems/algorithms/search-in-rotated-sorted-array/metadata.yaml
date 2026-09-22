@@ -1,0 +1,14 @@
+title: Search in Rotated Sorted Array
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - binary-search
+concepts:
+  - rotated-array
+patterns:
+  - divide-and-conquer
+languages:
+  - java
+status: unsolved

@@ -1,0 +1,14 @@
+title: Word Search
+type: algorithm
+difficulty: medium
+data_structures:
+  - matrix
+algorithms:
+  - backtracking
+concepts:
+  - path-search
+patterns:
+  - grid-traversal
+languages:
+  - java
+status: unsolved

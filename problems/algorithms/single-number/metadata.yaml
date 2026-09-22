@@ -1,0 +1,14 @@
+title: Single Number
+type: algorithm
+difficulty: easy
+data_structures:
+  - array
+algorithms:
+  - bit-manipulation
+concepts:
+  - duplicate-cancellation
+patterns:
+  - xor
+languages:
+  - java
+status: unsolved

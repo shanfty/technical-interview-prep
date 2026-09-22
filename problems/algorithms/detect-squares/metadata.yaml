@@ -1,0 +1,12 @@
+title: Detect Squares
+type: algorithm
+difficulty: medium
+data_structures: [hash-map]
+algorithms: []
+concepts: [geometry, frequency-counting]
+patterns: [object-design]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/detect-squares
+source_platform: neetcode
+

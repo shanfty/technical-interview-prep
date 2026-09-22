@@ -1,0 +1,13 @@
+title: Spiral Matrix
+type: algorithm
+difficulty: medium
+data_structures:
+  - matrix
+algorithms: []
+concepts:
+  - traversal
+patterns:
+  - boundary-shrinking
+languages:
+  - java
+status: unsolved

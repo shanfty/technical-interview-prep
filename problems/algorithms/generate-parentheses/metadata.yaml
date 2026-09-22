@@ -1,0 +1,12 @@
+title: Generate Parentheses
+type: algorithm
+difficulty: medium
+data_structures: [string, list]
+algorithms: [backtracking]
+concepts: []
+patterns: [backtracking]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/generate-parentheses
+source_platform: neetcode
+

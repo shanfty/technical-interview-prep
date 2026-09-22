@@ -1,0 +1,14 @@
+title: 3Sum
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - sorting
+concepts:
+  - duplicate-elimination
+patterns:
+  - two-pointers
+languages:
+  - java
+status: unsolved

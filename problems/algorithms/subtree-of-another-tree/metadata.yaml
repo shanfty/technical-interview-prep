@@ -1,0 +1,14 @@
+title: Subtree of Another Tree
+type: algorithm
+difficulty: easy
+data_structures:
+  - binary-tree
+algorithms:
+  - depth-first-search
+concepts:
+  - tree-comparison
+patterns:
+  - recursion
+languages:
+  - java
+status: unsolved

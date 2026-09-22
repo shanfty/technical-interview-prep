@@ -1,0 +1,14 @@
+title: Best Time to Buy and Sell Stock with Cooldown
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - dynamic-programming
+concepts:
+  - state-machine
+patterns:
+  - one-dimensional-dp
+languages:
+  - java
+status: unsolved

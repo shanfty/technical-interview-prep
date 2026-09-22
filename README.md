@@ -272,8 +272,9 @@ Database exercises containing schemas, seed data, queries, and expected results.
 
 This repository includes a local [Interview Practice VS Code extension](tools/practice-vscode/README.md).
 Its **Practice: Open Problem** command presents a searchable list of exercises
-and opens the selected problem's rendered `problem.md` on the left and Java
-`Solution.java` starter or implementation on the right.
+and opens the selected problem's rendered `problem.md` on the left, Java
+`Solution.java` starter or implementation in the middle, and `metadata.yaml`
+on the right.
 
 #### Install once
 
@@ -301,12 +302,12 @@ Once installed, the command works in your normal window. You do not need to run
 F5 or the Extension Development Host for everyday practice. Installation is local;
 the extension is not published to the Marketplace.
 
-#### Open a problem and set a shortcut
+#### Open a problem and set shortcuts
 
 Open the repository root in VS Code, press **Ctrl+Shift+P**, run
 **Practice: Open Problem**, and select an exercise.
 
-For quicker access, assign **Ctrl+Alt+P**:
+For quicker access, assign **Ctrl+Alt+P** to **Practice: Open Problem**:
 
 1. Press **Ctrl+K**, then **Ctrl+S** to open Keyboard Shortcuts.
 2. Search for **Practice: Open Problem**.
@@ -316,6 +317,10 @@ For quicker access, assign **Ctrl+Alt+P**:
 
 Set the shortcut in your normal window after installation. Pressing it opens the
 exercise picker directly.
+
+For a random unsolved exercise, repeat the same process for **Practice: Open
+Random Unsolved** and assign **Ctrl+Alt+U**. This opens a randomly selected
+problem whose metadata still has `status: unsolved`.
 
 New exercises appear automatically when they follow the existing
 `problems/<category>/<problem>/problem.md` and

@@ -1,0 +1,12 @@
+title: K Closest Points to Origin
+type: algorithm
+difficulty: medium
+data_structures: [array, heap]
+algorithms: [sorting]
+concepts: [distance]
+patterns: [priority-queue]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/k-closest-points-to-origin
+source_platform: neetcode
+

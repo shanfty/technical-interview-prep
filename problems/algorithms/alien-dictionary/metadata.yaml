@@ -1,0 +1,12 @@
+title: Alien Dictionary
+type: algorithm
+difficulty: hard
+data_structures: [graph]
+algorithms: [topological-sort]
+concepts: [ordering]
+patterns: [directed-graph]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/foreign-dictionary
+source_platform: neetcode
+

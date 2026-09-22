@@ -1,0 +1,12 @@
+title: Edit Distance
+type: algorithm
+difficulty: medium
+data_structures: [string]
+algorithms: [dynamic-programming]
+concepts: [sequence-alignment]
+patterns: [two-dimensional-dp]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/edit-distance
+source_platform: neetcode
+

@@ -1,0 +1,14 @@
+title: Top K Frequent Elements
+type: algorithm
+difficulty: medium
+data_structures:
+  - hash-map
+  - heap
+algorithms: []
+concepts:
+  - frequency
+patterns:
+  - top-k
+languages:
+  - java
+status: unsolved

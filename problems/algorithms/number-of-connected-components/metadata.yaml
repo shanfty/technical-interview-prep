@@ -1,0 +1,12 @@
+title: Number of Connected Components in an Undirected Graph
+type: algorithm
+difficulty: medium
+data_structures: [graph, disjoint-set]
+algorithms: [union-find]
+concepts: [connectivity]
+patterns: []
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/count-connected-components
+source_platform: neetcode
+

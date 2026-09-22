@@ -1,0 +1,12 @@
+title: Valid Palindrome
+type: algorithm
+difficulty: easy
+data_structures: []
+algorithms: []
+concepts:
+  - string
+patterns:
+  - two-pointers
+languages:
+  - java
+status: unsolved

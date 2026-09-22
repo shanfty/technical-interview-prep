@@ -1,0 +1,15 @@
+title: Reconstruct Itinerary
+type: algorithm
+difficulty: hard
+data_structures:
+  - graph
+  - heap
+algorithms:
+  - depth-first-search
+concepts:
+  - eulerian-path
+patterns:
+  - backtracking
+languages:
+  - java
+status: unsolved

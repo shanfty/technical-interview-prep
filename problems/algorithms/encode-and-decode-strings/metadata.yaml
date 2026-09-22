@@ -1,0 +1,13 @@
+title: Encode and Decode Strings
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms: []
+concepts:
+  - serialization
+patterns:
+  - length-prefix
+languages:
+  - java
+status: unsolved

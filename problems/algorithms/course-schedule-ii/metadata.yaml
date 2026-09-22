@@ -1,0 +1,12 @@
+title: Course Schedule II
+type: algorithm
+difficulty: medium
+data_structures: [graph]
+algorithms: [topological-sort]
+concepts: [dependency-ordering]
+patterns: [directed-graph]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/course-schedule-ii
+source_platform: neetcode
+

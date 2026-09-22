@@ -1,0 +1,14 @@
+title: Maximum Depth of Binary Tree
+type: algorithm
+difficulty: easy
+data_structures:
+  - binary-tree
+algorithms:
+  - depth-first-search
+concepts:
+  - tree-traversal
+patterns:
+  - recursion
+languages:
+  - java
+status: unsolved

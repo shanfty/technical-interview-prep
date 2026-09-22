@@ -1,0 +1,12 @@
+title: Design Twitter
+type: algorithm
+difficulty: medium
+data_structures: [hash-map, heap]
+algorithms: [sorting]
+concepts: [object-design]
+patterns: []
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/design-twitter
+source_platform: neetcode
+

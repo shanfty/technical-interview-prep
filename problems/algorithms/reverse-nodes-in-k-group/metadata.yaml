@@ -1,0 +1,13 @@
+title: Reverse Nodes in K Group
+type: algorithm
+difficulty: hard
+data_structures:
+  - linked-list
+algorithms: []
+concepts:
+  - pointer-manipulation
+patterns:
+  - grouped-reversal
+languages:
+  - java
+status: unsolved
