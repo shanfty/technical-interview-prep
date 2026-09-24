@@ -1,0 +1,12 @@
+title: Minimum Interval to Include Each Query
+type: algorithm
+difficulty: hard
+data_structures: [array, heap]
+algorithms: [sorting]
+concepts: [intervals]
+patterns: [offline-queries]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/minimum-interval-including-each-query
+source_platform: neetcode
+

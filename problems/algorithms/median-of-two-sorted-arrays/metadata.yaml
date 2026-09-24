@@ -1,0 +1,12 @@
+title: Median of Two Sorted Arrays
+type: algorithm
+difficulty: hard
+data_structures: [array]
+algorithms: [binary-search]
+concepts: [median]
+patterns: [partitioning]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/median-two-sorted-arrays
+source_platform: neetcode
+

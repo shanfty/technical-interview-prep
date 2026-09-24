@@ -1,0 +1,12 @@
+title: Koko Eating Bananas
+type: algorithm
+difficulty: medium
+data_structures: [array]
+algorithms: [binary-search]
+concepts: []
+patterns: [search-on-answer]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/koko-eating-bananas
+source_platform: neetcode
+

@@ -1,0 +1,12 @@
+title: Burst Balloons
+type: algorithm
+difficulty: hard
+data_structures: [array]
+algorithms: [dynamic-programming]
+concepts: [interval-optimization]
+patterns: [interval-dp]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/burst-balloons
+source_platform: neetcode
+

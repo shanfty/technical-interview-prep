@@ -1,0 +1,13 @@
+title: Longest Repeating Character Replacement
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms: []
+concepts:
+  - string
+patterns:
+  - sliding-window
+languages:
+  - java
+status: unsolved

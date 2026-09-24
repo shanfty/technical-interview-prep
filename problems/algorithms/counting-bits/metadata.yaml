@@ -1,0 +1,14 @@
+title: Counting Bits
+type: algorithm
+difficulty: easy
+data_structures:
+  - array
+algorithms:
+  - bit-manipulation
+concepts:
+  - binary-representation
+patterns:
+  - dynamic-programming
+languages:
+  - java
+status: unsolved

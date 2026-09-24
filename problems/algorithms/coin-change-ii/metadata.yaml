@@ -1,0 +1,12 @@
+title: Coin Change II
+type: algorithm
+difficulty: medium
+data_structures: [array]
+algorithms: [dynamic-programming]
+concepts: [counting]
+patterns: [unbounded-knapsack]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/coin-change-ii
+source_platform: neetcode
+

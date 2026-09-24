@@ -1,0 +1,12 @@
+title: Subsets II
+type: algorithm
+difficulty: medium
+data_structures: [array, list]
+algorithms: [backtracking, sorting]
+concepts: [deduplication]
+patterns: [backtracking]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/subsets-ii
+source_platform: neetcode
+

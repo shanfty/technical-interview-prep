@@ -1,0 +1,12 @@
+title: Partition Labels
+type: algorithm
+difficulty: medium
+data_structures: [string, list]
+algorithms: [greedy]
+concepts: []
+patterns: [interval-expansion]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/partition-labels
+source_platform: neetcode
+

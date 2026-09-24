@@ -1,0 +1,14 @@
+title: Maximum Subarray
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - dynamic-programming
+concepts:
+  - contiguous-subarray
+patterns:
+  - running-optimum
+languages:
+  - java
+status: unsolved

@@ -1,0 +1,15 @@
+title: Min Cost to Connect All Points
+type: algorithm
+difficulty: medium
+data_structures:
+  - graph
+  - heap
+algorithms:
+  - minimum-spanning-tree
+concepts:
+  - manhattan-distance
+patterns:
+  - greedy
+languages:
+  - java
+status: unsolved

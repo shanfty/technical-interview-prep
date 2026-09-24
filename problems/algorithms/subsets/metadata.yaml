@@ -1,0 +1,14 @@
+title: Subsets
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - backtracking
+concepts:
+  - combinatorics
+patterns:
+  - decision-tree
+languages:
+  - java
+status: unsolved

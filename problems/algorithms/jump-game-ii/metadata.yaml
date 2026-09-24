@@ -1,0 +1,12 @@
+title: Jump Game II
+type: algorithm
+difficulty: medium
+data_structures: [array]
+algorithms: [greedy]
+concepts: [reachability]
+patterns: [range-expansion]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/jump-game-ii
+source_platform: neetcode
+

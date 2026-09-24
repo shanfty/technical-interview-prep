@@ -1,0 +1,13 @@
+title: Min Stack
+type: algorithm
+difficulty: medium
+data_structures:
+  - stack
+algorithms: []
+concepts:
+  - data-structure-design
+patterns:
+  - auxiliary-state
+languages:
+  - java
+status: unsolved

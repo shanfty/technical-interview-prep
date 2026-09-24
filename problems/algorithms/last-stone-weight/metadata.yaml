@@ -1,0 +1,13 @@
+title: Last Stone Weight
+type: algorithm
+difficulty: easy
+data_structures:
+  - heap
+algorithms: []
+concepts:
+  - simulation
+patterns:
+  - priority-queue
+languages:
+  - java
+status: unsolved

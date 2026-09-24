@@ -1,0 +1,15 @@
+title: Swim in Rising Water
+type: algorithm
+difficulty: hard
+data_structures:
+  - matrix
+  - heap
+algorithms:
+  - shortest-path
+concepts:
+  - minimax-path
+patterns:
+  - priority-queue
+languages:
+  - java
+status: unsolved

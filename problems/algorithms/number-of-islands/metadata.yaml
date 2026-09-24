@@ -1,0 +1,16 @@
+title: Number of Islands
+type: algorithm
+difficulty: medium
+data_structures:
+  - matrix
+  - queue
+algorithms:
+  - breadth-first-search
+  - depth-first-search
+concepts:
+  - connected-components
+patterns:
+  - grid-traversal
+languages:
+  - java
+status: unsolved

@@ -1,0 +1,13 @@
+title: Multiply Strings
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms: []
+concepts:
+  - arithmetic
+patterns:
+  - digit-processing
+languages:
+  - java
+status: unsolved

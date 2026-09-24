@@ -1,0 +1,13 @@
+title: Two Sum II - Input Array Is Sorted
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms: []
+concepts:
+  - sorted-array
+patterns:
+  - two-pointers
+languages:
+  - java
+status: unsolved

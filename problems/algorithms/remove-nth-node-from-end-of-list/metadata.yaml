@@ -1,0 +1,13 @@
+title: Remove Nth Node From End of List
+type: algorithm
+difficulty: medium
+data_structures:
+  - linked-list
+algorithms: []
+concepts:
+  - pointer-manipulation
+patterns:
+  - two-pointers
+languages:
+  - java
+status: unsolved

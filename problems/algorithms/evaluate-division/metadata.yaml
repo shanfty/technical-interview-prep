@@ -1,0 +1,15 @@
+title: Evaluate Division
+type: algorithm
+difficulty: medium
+data_structures:
+  - graph
+  - hash-map
+algorithms:
+  - depth-first-search
+concepts:
+  - weighted-graph
+patterns:
+  - path-product
+languages:
+  - java
+status: unsolved

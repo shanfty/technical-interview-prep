@@ -1,0 +1,14 @@
+title: Non-overlapping Intervals
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - sorting
+concepts:
+  - interval-overlap
+patterns:
+  - greedy
+languages:
+  - java
+status: unsolved

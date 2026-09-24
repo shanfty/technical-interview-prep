@@ -1,0 +1,14 @@
+title: Longest Increasing Subsequence
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - dynamic-programming
+concepts:
+  - subsequence
+patterns:
+  - one-dimensional-dp
+languages:
+  - java
+status: unsolved

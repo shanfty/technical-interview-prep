@@ -1,0 +1,13 @@
+title: Longest Common Subsequence
+type: algorithm
+difficulty: medium
+data_structures: []
+algorithms:
+  - dynamic-programming
+concepts:
+  - string
+patterns:
+  - two-dimensional-dp
+languages:
+  - java
+status: unsolved

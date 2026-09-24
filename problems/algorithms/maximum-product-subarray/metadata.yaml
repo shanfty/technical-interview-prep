@@ -1,0 +1,14 @@
+title: Maximum Product Subarray
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - dynamic-programming
+concepts:
+  - contiguous-subarray
+patterns:
+  - state-tracking
+languages:
+  - java
+status: unsolved

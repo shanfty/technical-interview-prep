@@ -1,0 +1,13 @@
+title: Contains Duplicate
+type: algorithm
+difficulty: easy
+data_structures:
+  - hash-set
+algorithms: []
+concepts:
+  - array
+patterns:
+  - membership-checking
+languages:
+  - java
+status: unsolved

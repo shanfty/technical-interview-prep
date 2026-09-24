@@ -1,0 +1,12 @@
+title: Largest Rectangle in Histogram
+type: algorithm
+difficulty: hard
+data_structures: [array, stack]
+algorithms: []
+concepts: [area]
+patterns: [monotonic-stack]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/largest-rectangle-in-histogram
+source_platform: neetcode
+

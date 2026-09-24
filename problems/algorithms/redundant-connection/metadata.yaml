@@ -1,0 +1,14 @@
+title: Redundant Connection
+type: algorithm
+difficulty: medium
+data_structures:
+  - graph
+algorithms:
+  - union-find
+concepts:
+  - cycle-detection
+patterns:
+  - disjoint-set
+languages:
+  - java
+status: unsolved

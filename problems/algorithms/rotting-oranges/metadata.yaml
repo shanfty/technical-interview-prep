@@ -1,0 +1,15 @@
+title: Rotting Oranges
+type: algorithm
+difficulty: medium
+data_structures:
+  - queue
+  - matrix
+algorithms:
+  - breadth-first-search
+concepts:
+  - shortest-path
+patterns:
+  - multi-source-bfs
+languages:
+  - java
+status: unsolved

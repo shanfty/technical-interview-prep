@@ -1,0 +1,13 @@
+title: Best Time to Buy and Sell Stock
+type: algorithm
+difficulty: easy
+data_structures:
+  - array
+algorithms: []
+concepts:
+  - optimization
+patterns:
+  - single-pass
+languages:
+  - java
+status: unsolved

@@ -1,0 +1,14 @@
+title: Design Add and Search Words Data Structure
+type: algorithm
+difficulty: medium
+data_structures:
+  - trie
+algorithms:
+  - depth-first-search
+concepts:
+  - wildcard-search
+patterns:
+  - recursive-trie-search
+languages:
+  - java
+status: unsolved

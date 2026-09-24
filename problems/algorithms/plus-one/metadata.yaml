@@ -1,0 +1,13 @@
+title: Plus One
+type: algorithm
+difficulty: easy
+data_structures:
+  - array
+algorithms: []
+concepts:
+  - arithmetic
+patterns:
+  - carry-propagation
+languages:
+  - java
+status: unsolved

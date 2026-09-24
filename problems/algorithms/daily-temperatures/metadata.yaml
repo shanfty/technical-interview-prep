@@ -1,0 +1,12 @@
+title: Daily Temperatures
+type: algorithm
+difficulty: medium
+data_structures: [array, stack]
+algorithms: []
+concepts: []
+patterns: [monotonic-stack]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/daily-temperatures
+source_platform: neetcode
+

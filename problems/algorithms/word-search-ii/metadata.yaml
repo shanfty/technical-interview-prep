@@ -1,0 +1,12 @@
+title: Word Search II
+type: algorithm
+difficulty: hard
+data_structures: [matrix, trie]
+algorithms: [backtracking]
+concepts: []
+patterns: [trie-search]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/word-search-ii
+source_platform: neetcode
+

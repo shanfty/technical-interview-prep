@@ -1,0 +1,11 @@
+title: Meeting Rooms
+type: algorithm
+difficulty: easy
+data_structures: [array]
+algorithms: [sorting]
+concepts: [intervals]
+patterns: []
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/meeting-schedule
+source_platform: neetcode

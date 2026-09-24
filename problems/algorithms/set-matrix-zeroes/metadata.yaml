@@ -1,0 +1,11 @@
+title: Set Matrix Zeroes
+type: algorithm
+difficulty: medium
+data_structures: [matrix]
+algorithms: []
+concepts: [in-place-modification]
+patterns: [constant-space]
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/set-matrix-zeroes
+source_platform: neetcode

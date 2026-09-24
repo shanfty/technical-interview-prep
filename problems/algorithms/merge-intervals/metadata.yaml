@@ -1,0 +1,14 @@
+title: Merge Intervals
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms:
+  - sorting
+concepts:
+  - interval-overlap
+patterns:
+  - sweep
+languages:
+  - java
+status: unsolved

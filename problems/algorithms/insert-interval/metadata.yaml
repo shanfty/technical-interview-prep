@@ -1,0 +1,13 @@
+title: Insert Interval
+type: algorithm
+difficulty: medium
+data_structures:
+  - array
+algorithms: []
+concepts:
+  - interval-overlap
+patterns:
+  - sweep
+languages:
+  - java
+status: unsolved

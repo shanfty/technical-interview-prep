@@ -1,0 +1,12 @@
+title: Reverse Integer
+type: algorithm
+difficulty: medium
+data_structures: []
+algorithms: []
+concepts:
+  - overflow
+patterns:
+  - digit-processing
+languages:
+  - java
+status: unsolved

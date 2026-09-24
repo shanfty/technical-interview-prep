@@ -1,0 +1,15 @@
+title: Time Based Key Value Store
+type: algorithm
+difficulty: medium
+data_structures:
+  - binary-search
+  - hash-map
+algorithms:
+  - binary-search
+concepts:
+  - temporal-data
+patterns:
+  - predecessor-query
+languages:
+  - java
+status: unsolved

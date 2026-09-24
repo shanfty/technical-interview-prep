@@ -1,0 +1,12 @@
+title: Copy List with Random Pointer
+type: algorithm
+difficulty: medium
+data_structures: [linked-list, hash-map]
+algorithms: []
+concepts: [deep-copy]
+patterns: []
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/copy-linked-list-with-random-pointer
+source_platform: neetcode
+

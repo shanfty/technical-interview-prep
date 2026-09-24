@@ -1,0 +1,14 @@
+title: Balanced Binary Tree
+type: algorithm
+difficulty: easy
+data_structures:
+  - binary-tree
+algorithms:
+  - depth-first-search
+concepts:
+  - tree-height
+patterns:
+  - postorder-traversal
+languages:
+  - java
+status: unsolved

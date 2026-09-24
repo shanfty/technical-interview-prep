@@ -1,0 +1,12 @@
+title: Graph Valid Tree
+type: algorithm
+difficulty: medium
+data_structures: [graph, disjoint-set]
+algorithms: [union-find]
+concepts: [connectivity, cycle-detection]
+patterns: []
+languages: [java]
+status: unsolved
+source_url: https://neetcode.io/problems/valid-tree
+source_platform: neetcode
+

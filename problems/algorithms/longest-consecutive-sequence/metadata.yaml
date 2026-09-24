@@ -1,0 +1,13 @@
+title: Longest Consecutive Sequence
+type: algorithm
+difficulty: medium
+data_structures:
+  - hash-set
+algorithms: []
+concepts:
+  - sequence-detection
+patterns:
+  - constant-time-lookup
+languages:
+  - java
+status: unsolved

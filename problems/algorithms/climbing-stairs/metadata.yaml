@@ -1,0 +1,13 @@
+title: Climbing Stairs
+type: algorithm
+difficulty: easy
+data_structures: []
+algorithms:
+  - dynamic-programming
+concepts:
+  - counting
+patterns:
+  - one-dimensional-dp
+languages:
+  - java
+status: unsolved

@@ -1,0 +1,14 @@
+title: Cheapest Flights Within K Stops
+type: algorithm
+difficulty: medium
+data_structures:
+  - graph
+algorithms:
+  - shortest-path
+concepts:
+  - constrained-path
+patterns:
+  - layered-relaxation
+languages:
+  - java
+status: unsolved
